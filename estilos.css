@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    touch-action: none; /* Desactiva gestos nativos del móvil */
+}
+
+#game-container {
+    position: relative;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 4px solid #333;
+}
+
+canvas {
+    display: block;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #70c5ce;
+}
